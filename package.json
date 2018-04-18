@@ -1,0 +1,26 @@
+{
+  "name": "bAmazon-CLI",
+  "version": "1.0.0",
+  "description": "CLI Amazon node application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molinacarlosdev/bAmazon-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molinacarlosdev/bAmazon-CLI/issues"
+  },
+  "homepage": "https://github.com/molinacarlosdev/bAmazon-CLI#readme",
+  "dependencies": {
+    "chalk": "^2.4.0",
+    "cli-table": "^0.3.1",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}
