@@ -1,8 +1,6 @@
-let dotenv = require('dotenv').config();
 let mysql = require('mysql');
 let inquirer = require('inquirer');
 let chalk = require('chalk');
-let keys = require('./keys.js');
 
 let pool = mysql.createPool({
 	connectionLimit: 10,
